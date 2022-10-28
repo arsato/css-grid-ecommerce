@@ -23,6 +23,7 @@ aside{
     justify-content: center;
     padding: 15px 0;
     background-color: rgb(173, 155, 189);
+    border-right: 1px solid blueviolet;
 }
 
 main{
@@ -57,8 +58,8 @@ footer{
     background-color: white;
     display: flex;
     flex-direction: column;
-    width: 30%;
-    height: calc(100vw - 0.3);
+    width: 400px;
+    height: 500px;
     margin: 10px 20px;
 }
 
@@ -82,6 +83,10 @@ footer{
     align-items: center;
 }
 
+.card-body h3{
+    margin-top: 10px;
+}
+
 .card-body button{
     margin-top: auto;
     width: 100%;
@@ -96,5 +101,5 @@ ul{
 }
 
 li{
-    margin: 10px;
+    margin: 20px 10px 0 10px;
 }
